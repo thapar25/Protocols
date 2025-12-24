@@ -19,3 +19,6 @@ token.json
 
 # MacOS system files
 .DS_Store
+
+# Extras
+dumps/

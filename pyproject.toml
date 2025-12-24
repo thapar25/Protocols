@@ -5,21 +5,18 @@ description = "Understanding MCP & A2A protocols"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.115.12",
-    "google-api-python-client>=2.170.0",
-    "google-auth-httplib2>=0.2.0",
-    "google-auth-oauthlib>=1.2.2",
+    "agno>=2.3.21",
+    "aiosqlite>=0.22.1",
+    "fastapi[standard]>=0.115.12",
     "langgraph>=0.4.7",
     "mcp>=1.9.1",
+    "openai>=2.14.0",
     "ruff>=0.11.11",
+    "sqlalchemy>=2.0.45",
+    "uvicorn>=0.34.2",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
-]
-
-[tool.uv.workspace]
-members = [
-    "weather",
 ]
