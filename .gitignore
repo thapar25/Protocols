@@ -12,6 +12,7 @@ wheels/
 # Credentials and sensitive data
 credentials*
 token.json
+.env
 
 # Jupyter Notebooks
 *.ipynb
