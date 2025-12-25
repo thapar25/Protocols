@@ -11,3 +11,11 @@
 - Utilizes EHR MCP
 - Can read patient records, and interect with doctor's calendar
 - Agno?
+
+---
+
+TODO:
+
+* Add PostGres for checkpointing and telemetry
+* Sample EHR MCP
+* A2A
