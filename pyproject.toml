@@ -17,10 +17,13 @@ dependencies = [
     "openinference-instrumentation-langchain>=0.1.57",
     "ruff>=0.11.11",
     "sqlalchemy>=2.0.45",
+    "streamlit>=1.52.2",
     "uvicorn>=0.34.2",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
+    "langgraph-cli[inmem]>=0.4.11",
+    "pre-commit>=4.5.1",
 ]
