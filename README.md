@@ -19,3 +19,4 @@ TODO:
 * Add PostGres for checkpointing and telemetry
 * Sample EHR MCP
 * A2A
+![output](https://github.com/user-attachments/assets/07e7030f-cf56-4121-9c0e-b0f4cf0f04e2)
