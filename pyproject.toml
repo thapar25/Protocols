@@ -5,6 +5,7 @@ description = "Understanding MCP & A2A protocols"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "a2a>=0.44",
     "agno>=2.3.21",
     "aiosqlite>=0.22.1",
     "arize-phoenix-otel>=0.14.0",
@@ -26,4 +27,5 @@ dev = [
     "ipykernel>=6.29.5",
     "langgraph-cli[inmem]>=0.4.11",
     "pre-commit>=4.5.1",
+    "yamlfix>=1.19.1",
 ]

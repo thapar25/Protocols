@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "health_agent": "./agents/client_agent.py:agent"
+    "health_agent": "./agents/health_agent.py:agent"
   },
   "env": ".env"
 }

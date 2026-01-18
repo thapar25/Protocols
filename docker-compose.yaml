@@ -1,3 +1,4 @@
+---
 services:
   phoenix:
     image: arizephoenix/phoenix:12.26.0
@@ -6,10 +7,8 @@ services:
       - 4317:4317  # PHOENIX_GRPC_PORT
       - 9090:9090  # [Optional] PROMETHEUS PORT IF ENABLED
     environment:
-      - PHOENIX_WORKING_DIR=/mnt/data # currently uses SQLite, can be changed to PostGres
-    volumes:
-      - phoenix_data:/mnt/data
-
+      - PHOENIX_WORKING_DIR=/mnt/data  # currently uses SQLite, can be changed to PostGres
+    volumes: [phoenix_data:/mnt/data]
 volumes:
   phoenix_data:
     driver: local
